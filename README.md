@@ -14,19 +14,19 @@ Find a pair with given sum in the list. If there's multiple pairs return the fir
 
 **Example:**
 
-	Input: [3, 8, 2, 5, 10, 7], sum = 15
+	Input: [3, 8, 2, 5, 10, 7], target_sum = 15
 	Output: [5, 10]
  
-	Input: [2, 7, 11, 15, 4], sum = 9
+	Input: [2, 7, 11, 15, 4], target_sum = 9
 	Output: [2, 7]
 
-	Input: [1, 2, 3, 4, 5], sum = 20
+	Input: [1, 2, 3, 4, 5], target_sum = 20
 	Output: []
     
-	Input: [3, 8, 4, 7, 12, 6], sum = 10
+	Input: [3, 8, 4, 7, 12, 6], target_sum = 10
 	Output: [3, 7]
 
-	Input: [-4, 0, 3, 1, -1, 5, -5], sum = 0
+	Input: [-4, 0, 3, 1, -1, 5, -5], target_sum = 0
 	Output: [-5, 5]
 
 ---
