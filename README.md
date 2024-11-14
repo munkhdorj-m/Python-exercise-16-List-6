@@ -1,4 +1,4 @@
-# Python List 5
+# Python List 6
 
 Python List PDF:
 https://drive.google.com/file/d/1lKmQwkQc8rGIuH9OIQB-yM6lFg-lW9Ch/view?usp=sharing
@@ -10,21 +10,24 @@ https://drive.google.com/file/d/1lKmQwkQc8rGIuH9OIQB-yM6lFg-lW9Ch/view?usp=shari
 
 **Problem:**
 
-Find index number of highest number.
+Find a pair with given sum in the list. If there's multiple pairs return the first pair.
 
 **Example:**
 
-	Input: [3, 8, 2, 5, 10, 7]
-	Output: 4 
+	Input: [3, 8, 2, 5, 10, 7], sum = 15
+	Output: [5, 10]
  
-	Input: [12, 23, 43, 11, 9]
-	Output: 2 
+	Input: [2, 7, 11, 15, 4], sum = 9
+	Output: [2, 7]
 
-  	Input: [3, 3, 3]
-   	Output: 0
+	Input: [1, 2, 3, 4, 5], sum = 20
+	Output: []
     
-	Input: [113, 234, 145, 299, 155]
-	Output: 3
+	Input: [3, 8, 4, 7, 12, 6], sum = 10
+	Output: [3, 7]
+
+	Input: [-4, 0, 3, 1, -1, 5, -5], sum = 0
+	Output: [-5, 5]
 
 ---
 
@@ -32,21 +35,24 @@ Find index number of highest number.
 
 **Problem:**
 
-Given a target element, find all indices where this element occurs in the list.
+Find the majority element of an list. If there's no majority element return 0.
 
 **Example**
 
-	Input: [3, 8, 3, 5, 3, 7], target = 3
-	Output: [0, 2, 4]
+	Input: [3, 8, 3, 5, 3, 7]
+	Output: 3
  
-	Input: [12, 23, 43, 11, 23], target = 23
-	Output: [1, 4]
- 
-	Input: [113, 234, 145, 113, 155], target = 113
-	Output: [0, 3]
+	Input: [2, 3, 2, 4, 2, 2, 5]
+	Output: 2 
 
- 	Input: [3, 8, 5, 7], target = 4
-	Output: [] 
+ 	Input: [1, 1, 1, 2, 2, 2, 2]
+	Output: 2
+
+	Input: [1, 2, 3, 4, 5]
+	Output: 0
+
+	Input: [6, 6, 7, 7, 8, 8, 9, 9]
+	Output: 0
 
 ---
 
@@ -54,21 +60,24 @@ Given a target element, find all indices where this element occurs in the list.
 
 **Problem:**
 
-Swap elements at even index with the element at the next odd index. If list length is odd, last element remains unchanged.
+Move all zeroes to the end of a given list.
 
 **Example**
 
-	Input: [10, 20, 30, 40, 50, 60]
-	Output: [20, 10, 40, 30, 60, 50]
- 
-	Input: [1, 2, 3, 4, 5, 6, 7, 8]
-	Output: [2, 1, 4, 3, 6, 5, 8, 7]
- 
-	Input: [1, 2, 3, 4, 5]
-	Output: [2, 1, 4, 3, 5] 
+	Input: [0, 2, 1, 0, 5, 0, 7]
+	Output: [2, 1, 5, 7, 0, 0, 0]
 
- 	Input: [100]
-	Output: [100]
+	Input: [0, 3, 0, 4, 0, 1]
+	Output: [3, 4, 1, 0, 0, 0]
+
+	Input: [4, 0, 2]
+	Output: [4, 2, 0]
+ 
+	Input: [0, 0, 0, 0]
+	Output: [0, 0, 0, 0]
+
+ 	Input: [1, 2, 3, 0, 0, 0]
+	Output: [1, 2, 3, 0, 0, 0]
  
 ---
 
