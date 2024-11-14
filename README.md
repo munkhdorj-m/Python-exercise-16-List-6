@@ -35,7 +35,7 @@ Find a pair with given sum in the list. If there's multiple pairs return the fir
 
 **Problem:**
 
-Find the majority element of an list. If there's no majority element return 0.
+Find the majority element of an list. If there's no majority element return first element.
 
 **Example**
 
@@ -49,10 +49,10 @@ Find the majority element of an list. If there's no majority element return 0.
 	Output: 2
 
 	Input: [1, 2, 3, 4, 5]
-	Output: 0
+	Output: 1
 
 	Input: [6, 6, 7, 7, 8, 8, 9, 9]
-	Output: 0
+	Output: 6
 
 ---
 
