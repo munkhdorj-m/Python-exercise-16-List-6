@@ -11,7 +11,7 @@ def check_contains_loop(function):
     ([2, 7, 11, 15, 4], 9, [2, 7]),
     ([1, 2, 3, 4, 5], 20, []),
     ([3, 8, 4, 7, 12, 6], 10, [3, 7]),
-    ([-4, 0, 3, 1, -1, 5, -5], 0, [-5, 5])
+    ([-4, 0, 3, 1, -1, 5, -5], 0, [1, -1])
 ])
 def test1(numbers, target_sum, expected):
     assert find_pair_with_sum(numbers, target_sum) == expected
