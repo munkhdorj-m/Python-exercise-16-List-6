@@ -1,16 +1,16 @@
 # You can remove 'pass' if you written code in the function 
 
 # Exercise 1
-def index_of_highest_number(numbers):
+def find_pair_with_sum(nums, target_sum):
     # Write your code here
     pass
 
 # Exercise 2
-def find_all_indices(numbers, target):
+def find_majority_element(nums):
     # Write your code here
     pass
 
 # Exercise 3
-def swap_even_odd_indices(numbers):
+def move_zeroes_to_end(nums):
     # Write your code here
     pass
