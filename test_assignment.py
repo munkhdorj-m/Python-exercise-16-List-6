@@ -7,7 +7,7 @@ def check_contains_loop(function):
     return 'for' in source or 'while' in source
 
 @pytest.mark.parametrize("numbers, target_sum, expected", [
-    ([3, 8, 2, 5, 10, 7], 15, [5, 10]),
+    ([3, 8, 2, 5, 10, 7], 15, [8, 7]),
     ([2, 7, 11, 15, 4], 9, [2, 7]),
     ([1, 2, 3, 4, 5], 20, []),
     ([3, 8, 4, 7, 12, 6], 10, [3, 7]),
