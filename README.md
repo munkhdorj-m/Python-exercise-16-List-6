@@ -15,7 +15,7 @@ Find a pair with given sum in the list. If there's multiple pairs return the fir
 **Example:**
 
 	Input: [3, 8, 2, 5, 10, 7], target_sum = 15
-	Output: [5, 10]
+	Output: [8, 7]
  
 	Input: [2, 7, 11, 15, 4], target_sum = 9
 	Output: [2, 7]
