@@ -27,7 +27,7 @@ Find a pair with given sum in the list. If there's multiple pairs return the fir
 	Output: [3, 7]
 
 	Input: [-4, 0, 3, 1, -1, 5, -5], target_sum = 0
-	Output: [-5, 5]
+	Output: [1, -1]
 
 ---
 
